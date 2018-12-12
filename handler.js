@@ -2,7 +2,7 @@
 
 const ipsum = require("lorem-ipsum")
 const dictionary = require("./dictionary")
-
+// worked last time now for logs to confirm
 module.exports.ipsum = (event, context, callback) => {
   const response = {
     statusCode: 200,
